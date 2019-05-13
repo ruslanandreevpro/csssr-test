@@ -1,0 +1,4 @@
+mixin input(name, type, label, value='', placeholder)
+    div(class=attributes.class)
+        label(for=name) #{label}
+        input(id=name class="inputField" name=name type=type value=value placeholder=placeholder)

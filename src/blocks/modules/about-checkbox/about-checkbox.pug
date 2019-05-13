@@ -1,0 +1,49 @@
+include ../../components/checkbox/checkbox
+
+div#about-checkbox.about-checkbox
+    ._title
+        h2 Расскажите о себе чекбоксами
+    ._description
+        p Отметьте чекбоксами пункты, которые соответствуют вашим скиллам. Кстати, отсутствие опыта не означает, что у вас меньше шансов стать одним из наших товарищей. Это означает, что вы будете получать те задачи, с которыми гарантировано будете справляться.
+    ._checklist
+        ul
+            li
+                +checkbox('БЭМ/OOCSS', true)
+            li
+                +checkbox('Pug (Jade)', true)
+            li
+                +checkbox('Stylus/LESS/SCSS', true)
+            li
+                +checkbox('Работаю с SVG', false)
+            li
+                +checkbox('Верстаю семантично', true)
+            li
+                +checkbox('Accessibility (A11Y)', false)
+            li
+                +checkbox('ES2015/ES2016', false)
+        ul
+            li
+                +checkbox('Gulp/GRUNT', true)
+            li
+                +checkbox('Webpack', true)
+            li
+                +checkbox('Дружу с WebGL', false)
+            li
+                +checkbox('jQuery', true)
+            li
+                +checkbox('Знаю/изучаю Angular', true)
+            li
+                +checkbox('Знаю/изучаю React', false)
+            li
+                +checkbox('Знаю/изучаю Node.js', true)
+        ul
+            li
+                +checkbox('Использую Git', true)
+            li
+                +checkbox('С глазомером всё ок', true)
+            li
+                +checkbox('Читаю blog.csssr.ru', false)
+            li
+                +checkbox('Я ленивый(-ая)', false)
+            li
+                +checkbox('У меня хороший\n' + 'английский', true)

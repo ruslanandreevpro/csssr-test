@@ -1,0 +1,43 @@
+.js-level {
+  padding: 60px 110px 30px;
+
+  &__title {
+
+    h2 {
+      font-size: 24px;
+      line-height: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .js-level {
+    padding: 60px 90px 30px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+
+  .js-level {
+    padding: 60px 50px 30px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+
+  .js-level {
+    padding: 30px 30px 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+}
+
+@media screen and (max-width: 420px) {
+
+  .js-level {
+    padding: 30px 15px 30px;
+  }
+}

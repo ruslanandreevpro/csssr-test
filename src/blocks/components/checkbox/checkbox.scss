@@ -1,0 +1,39 @@
+.checkbox {
+  display: none;
+}
+
+.checkbox-custom {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  border: 2px solid;
+  border-image: url('../img/checkbox.png') 2 repeat;
+}
+
+.checkbox-custom,
+.label {
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+.checkbox:checked + .checkbox-custom::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  bottom: 2px;
+  left: 2px;
+  background: url('../img/checkbox-check.png') no-repeat center;
+  z-index: 10;
+}
+
+.label {
+  margin-left: 10px;
+  margin-top: -3px;
+  font-size: 21px;
+  line-height: 25px;
+  color: #000000;
+  font-weight: 700;
+  white-space: pre-line;
+}

@@ -1,0 +1,16 @@
+include ../../components/radio/radio
+
+div#your-plans.your-plans
+    ._title
+        h2 Какие у вас планы на будущее?
+    ._description
+        p Этот ответ ни на что не повлияет. Не беда, если в будущем ваши планы поменяются.
+    ._plans
+        .one
+            +radio('one', 'Верстать', false)
+        .two
+            +radio('two', 'Прокачиваться в JS', true)
+        .three
+            +radio('three', 'Менеджерство', false)
+        .four
+            +radio('four', 'Другое', false)

@@ -1,0 +1,6 @@
+mixin checkbox(label, checkState)
+    .item-check
+        label
+            input(type="checkbox" class="checkbox" checked = checkState)
+            span(class="checkbox-custom")
+            span(class="label") #{label}

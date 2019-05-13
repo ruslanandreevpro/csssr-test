@@ -1,0 +1,84 @@
+.item-textarea {
+  position: relative;
+
+  textarea {
+    font-family: "Courier New", sans-serif;
+    font-size: 30px;
+    line-height: 60px;
+    color: #231f20;
+    padding: 8px 0;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    background-image: -webkit-linear-gradient(left, transparent 0px, transparent 0px), -webkit-linear-gradient(right, transparent 0px, transparent 0px), -webkit-linear-gradient(transparent 60px, #2f1b15 60px, #2f1b15 62px, transparent 60px);
+    background-image: -moz-linear-gradient(left, transparent 0px, transparent 0px), -moz-linear-gradient(right, transparent 0px, transparent 0px), -moz-linear-gradient(transparent 60px, #2f1b15 60px, #2f1b15 62px, transparent 60px);
+    background-image: -ms-linear-gradient(left, transparent 0px, transparent 0px), -ms-linear-gradient(right, transparent 0px, transparent 0px), -ms-linear-gradient(transparent 60px, #2f1b15 60px, #2f1b15 62px, transparent 60px);
+    background-image: -o-linear-gradient(left, transparent 0px, transparent 0px), -o-linear-gradient(right, transparent 0px, transparent 0px), -o-linear-gradient(transparent 60px, #2f1b15 60px, #2f1b15 62px, transparent 60px);
+    background-image: linear-gradient(left, transparent 0px, transparent 0px), linear-gradient(right, transparent 0px, transparent 0px), linear-gradient(transparent 60px, #2f1b15 60px, #2f1b15 62px, transparent 60px);
+    background-size: 100% 100%, 100% 100%, 100% 62px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 960px) {
+
+  .item-textarea {
+
+    textarea {
+      font-size: 24px;
+      line-height: 48px;
+      background-image: -webkit-linear-gradient(left, transparent 0px, transparent 0px), -webkit-linear-gradient(right, transparent 0px, transparent 0px), -webkit-linear-gradient(transparent 48px, #2f1b15 48px, #2f1b15 50px, transparent 48px);
+      background-image: -moz-linear-gradient(left, transparent 0px, transparent 0px), -moz-linear-gradient(right, transparent 0px, transparent 0px), -moz-linear-gradient(transparent 48px, #2f1b15 48px, #2f1b15 50px, transparent 48px);
+      background-image: -ms-linear-gradient(left, transparent 0px, transparent 0px), -ms-linear-gradient(right, transparent 0px, transparent 0px), -ms-linear-gradient(transparent 48px, #2f1b15 48px, #2f1b15 50px, transparent 48px);
+      background-image: -o-linear-gradient(left, transparent 0px, transparent 0px), -o-linear-gradient(right, transparent 0px, transparent 0px), -o-linear-gradient(transparent 48px, #2f1b15 48px, #2f1b15 50px, transparent 48px);
+      background-image: linear-gradient(left, transparent 0px, transparent 0px), linear-gradient(right, transparent 0px, transparent 0px), linear-gradient(transparent 48px, #2f1b15 48px, #2f1b15 50px, transparent 48px);
+      background-size: 100% 100%, 100% 100%, 100% 50px;
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+
+  .item-textarea {
+
+    textarea {
+      font-size: 20px;
+      line-height: 40px;
+      background-image: -webkit-linear-gradient(left, transparent 0px, transparent 0px), -webkit-linear-gradient(right, transparent 0px, transparent 0px), -webkit-linear-gradient(transparent 40px, #2f1b15 40px, #2f1b15 42px, transparent 40px);
+      background-image: -moz-linear-gradient(left, transparent 0px, transparent 0px), -moz-linear-gradient(right, transparent 0px, transparent 0px), -moz-linear-gradient(transparent 40px, #2f1b15 40px, #2f1b15 42px, transparent 40px);
+      background-image: -ms-linear-gradient(left, transparent 0px, transparent 0px), -ms-linear-gradient(right, transparent 0px, transparent 0px), -ms-linear-gradient(transparent 40px, #2f1b15 40px, #2f1b15 42px, transparent 40px);
+      background-image: -o-linear-gradient(left, transparent 0px, transparent 0px), -o-linear-gradient(right, transparent 0px, transparent 0px), -o-linear-gradient(transparent 40px, #2f1b15 40px, #2f1b15 42px, transparent 40px);
+      background-image: linear-gradient(left, transparent 0px, transparent 0px), linear-gradient(right, transparent 0px, transparent 0px), linear-gradient(transparent 40px, #2f1b15 40px, #2f1b15 42px, transparent 40px);
+      background-size: 100% 100%, 100% 100%, 100% 42px;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+  .item-textarea {
+
+    textarea {
+      font-size: 18px;
+      line-height: 36px;
+      background-image: -webkit-linear-gradient(left, transparent 0px, transparent 0px), -webkit-linear-gradient(right, transparent 0px, transparent 0px), -webkit-linear-gradient(transparent 36px, #2f1b15 36px, #2f1b15 38px, transparent 36px);
+      background-image: -moz-linear-gradient(left, transparent 0px, transparent 0px), -moz-linear-gradient(right, transparent 0px, transparent 0px), -moz-linear-gradient(transparent 36px, #2f1b15 36px, #2f1b15 38px, transparent 36px);
+      background-image: -ms-linear-gradient(left, transparent 0px, transparent 0px), -ms-linear-gradient(right, transparent 0px, transparent 0px), -ms-linear-gradient(transparent 36px, #2f1b15 36px, #2f1b15 38px, transparent 36px);
+      background-image: -o-linear-gradient(left, transparent 0px, transparent 0px), -o-linear-gradient(right, transparent 0px, transparent 0px), -o-linear-gradient(transparent 36px, #2f1b15 36px, #2f1b15 38px, transparent 36px);
+      background-image: linear-gradient(left, transparent 0px, transparent 0px), linear-gradient(right, transparent 0px, transparent 0px), linear-gradient(transparent 36px, #2f1b15 36px, #2f1b15 38px, transparent 36px);
+      background-size: 100% 100%, 100% 100%, 100% 38px;
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+
+}
